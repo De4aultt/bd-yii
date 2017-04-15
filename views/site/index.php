@@ -10,7 +10,7 @@ $this->title = 'АІС Майстерня картин';
 
    
     
-        <p>Пройдіть <a href="login.php">аутентифікацію</a> та оберіть категорію:</p>
+        <p>Пройдіть <a href="/web/index.php?r=site%2Flogin">аутентифікацію</a> та оберіть категорію:</p>
         <ul>
             <li><a href="/web/index.php?r=managers%2Findex">Менеджери</a></li>
             <li><a href="/web/index.php?r=designers%2Findex">Дизайнери</a></li>

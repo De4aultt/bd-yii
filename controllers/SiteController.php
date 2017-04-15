@@ -126,19 +126,5 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
-    public function actionGrid() {
 
-
-$dataProvider = new ActiveDataProvider([
-    'query' => Post::find(),
-    'pagination' => [
-        'pageSize' => 20,
-    ],
-]);
-echo GridView::widget([
-    'dataProvider' => $dataProvider,
-]);
-return $this->render('grid');
-
-    }
 }
